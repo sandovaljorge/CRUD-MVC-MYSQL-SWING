@@ -1,0 +1,5 @@
+com\latin\colegio\Resource\Conexion.class
+com\latin\producto\Model\Producto.class
+com\latin\producto\Service\IProducto.class
+com\latin\producto\Controller\ProductoController.class
+com\latin\producto\Main.class
