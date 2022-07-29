@@ -138,8 +138,6 @@ public class Form extends JFrame{
         txtNombre.setText(table.getValueAt(row, 1).toString());
         txtCantidad.setText(table.getValueAt(row, 2).toString());
         txtLugar.setText(table.getValueAt(row, 3).toString());
-        //System.out.println(table.getValueAt(row, 4).toString());
-        //System.out.println(table.getValueAt(row, 4).toString());
     }
     
     private void cleanTextField(){
@@ -182,20 +180,4 @@ public class Form extends JFrame{
         table.setModel(tableModel);
         panel.add(table);
     }
-    
-//    private void table(){
-//        String [] col={"CODIGO","NOMBRE","CANTIDAD","FECHA"};
-//        table.setBounds(20, 120, 440, 100);
-//        tableModel=new DefaultTableModel(null,col);
-//        ProductoController productoController=new ProductoController();
-//        for(Producto producto: productoController.list()){
-//            Object[] object={producto.getCodigo(),
-//                             producto.getNombre(),
-//                             producto.getCantidad(),
-//                             //producto.getLugarProduccion(),
-//                             producto.getFechaIngreso()};
-//            tableModel.addRow(object);
-//        }
-//        panel.add(scrollPane);
-//    }
 }
